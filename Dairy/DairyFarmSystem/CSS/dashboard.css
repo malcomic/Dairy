@@ -1,0 +1,100 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    background-color: #004d00;
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.sidebar h4 {
+    color: #ffffff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.sidebar .nav-link {
+    color: #a9dfbf;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #006600;
+    color: white;
+    text-decoration: none;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #004d00;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-bottom: 1px solid #004d00;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-body ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card-body ul li {
+    padding: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Stats Cards */
+.card-body.text-center h5 {
+    color: #006600;
+    font-size: 16px;
+}
+
+.card-body.text-center p {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #e9ecef;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer .text-muted {
+    color: #79c4ac !important;
+    font-size: 14px;
+}

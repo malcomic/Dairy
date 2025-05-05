@@ -1,0 +1,138 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+    color: rgb(255, 255, 255);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-section h1 {
+    color: black;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.hero-section .btn {
+    font-size: 1.25rem;
+    padding: 10px 30px;
+    background-color: #004d00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.hero-section .btn:hover {
+    background-color: #006600;
+    cursor: pointer;
+}
+
+/* Features Section */
+.features-section {
+    background-color: white;
+    padding: 60px 20px;
+}
+
+.features-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #004d00;
+}
+
+.features-section .lead {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.feature-card {
+    background-color: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.feature-card h5 {
+    font-size: 1.5rem;
+    color: #006600;
+    margin-bottom: 15px;
+}
+
+.feature-card p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Footer */
+.footer {
+    background-color: #004d00;
+    color: white;
+    padding: 20px 0;
+    font-size: 1rem;
+}
+ /* landing.css */
+/* Contact Section */
+section {
+    background-color: white;
+    padding: 50px 0;
+}
+
+h3 {
+    color: #198754;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form .form-control {
+    border: 1px solid #198754;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+form .form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+form button {
+    background-color: #198754;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #145a32;
+}

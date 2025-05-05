@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #198754; /* Bootstrap success color */
+    color: white;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header .nav-item {
+    margin-right: 15px;
+}
+
+header .nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .nav-link.active {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+section {
+    background-color: white;
+    padding: 50px 0;
+}
+
+h3 {
+    color: #198754;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form .form-control {
+    border: 1px solid #198754;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+form .form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+form button {
+    background-color: #198754;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #145a32;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
