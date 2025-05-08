@@ -2,7 +2,7 @@
 
 A simple, lightweight dairy management system built with [php](https://php.org/), [javaScript](https://www.javascriptlang.org/), and [Tailwind CSS](https://tailwindcss.com/). This project helps farmers and dairy businesses manage milk production, sales, and inventory efficiently.
 
-
+![dairy](https://github.com/user-attachments/assets/2ac879b5-967f-4aba-8637-c6297de6c663)
 
 ## Features ✨
 
@@ -36,7 +36,7 @@ A simple, lightweight dairy management system built with [php](https://php.org/)
 ├── public/          # Static assets
 ├── src/
 │   ├── components/  # Reusable UI components
-│   ├── pages/       # ![dairy](https://github.com/user-attachments/assets/2ac879b5-967f-4aba-8637-c6297de6c663)
+│   ├── pages/       # 
  pages
 │   ├── styles/      # Global styles
 │   ├── utils/       # Helper functions
